@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins','sans-serif';
+    box-sizing:border-box;    
+}
+body{
+    background:#000000;
+    color:#ffffff;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(header-image.png);
+    background-size: cover;
+    padding:10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    width: 125px;
+}
+nav button{
+    border:0;
+    outline: 0;
+    background: #db0001;
+    color: #ffffff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+#lang{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 7px 10px;
+}
+#down{
+    width:10px;
+    margin-left: 10px;
+}
+.header-cont{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    margin-top: 100px;
+}
+.header-cont h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-cont h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email input{
+    flex:1;
+    border: 1px solid #ffffff;
+    background: transparent;
+    margin-left: 20px;
+    height: 30px
+}
+.email button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #ffffff;
+    font-size: 12px;
+    height: 30px;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px o;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #3333;
+    color:#777
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
